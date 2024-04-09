@@ -1,0 +1,335 @@
+nav{
+    padding: 56px 56px 0;
+}
+
+.logo svg {
+    color: #de4e87;
+    fill: currentColor;
+    opacity: 0.7;
+    margin-bottom: 30px;
+    width: 90px;
+    height: auto;
+  }
+  .main-content{
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: center;
+  }
+  .main-container{
+    padding: 40px;
+    max-width: 548px;
+    flex-grow: 1;
+  }
+  .header-title{
+    margin: 0 0 40px 0;
+  }
+  .title{
+    font-weight: 700;
+    font-size: 32px;
+    font-family: "Mona Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  }
+  label{
+    font-weight: 700;
+    font-size: 20px;
+    margin: 0 0 26px 0;
+    display: block;
+    width: 548px;
+    font-family: "Mona Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  }
+  .sub{
+    font-family: "Mona Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: 17px 0 0 0;
+    color: #6e6d7a;
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .upload-container {
+    display: flex;
+    margin-bottom: 40px;
+  }
+  
+  .upload-dropzone {
+    padding-right: 40px;
+    flex-grow: 0;
+  }
+  
+  .drag-drop-container {
+    position: relative;
+  }
+  
+  .drop-area {
+    width: 165.2px;
+    height: 165.2px;
+    overflow: hidden;
+    -webkit-transition: border 0.2s ease;
+    transition: border 0.2s ease;
+    border: 3px dashed #dbdbde;
+    border-radius: 50%;
+    cursor: pointer;
+    background-size: cover; /* Added to make the background image cover the entire area */
+    background-position: center; /* Added to center the background image */
+  }
+  
+  .camera-icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 16px;
+    height: 16px;
+  }
+  .camera-icon path {
+    fill: none;
+  }
+
+  .upload-button{
+    position: static;
+  }
+  .btn{
+        /* Font & Text */	
+      font-family: "Mona Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;	
+      font-size: 13px;	
+      font-style: normal;	
+      font-variant: normal;	
+      font-weight: 600;	
+      letter-spacing: normal;	
+      line-height: 13px;	
+      display: block;
+      text-align: center;
+      text-decoration: rgb(13, 12, 34);	
+      text-align: center;	
+      text-indent: 0px;	
+      text-transform: none;	
+      vertical-align: baseline;	
+      white-space: nowrap;	
+      word-spacing: 0px;	
+      /* Color & Background */	
+      background-attachment: scroll;	
+      background-color: rgb(255, 255, 255);	
+      background-image: none;	
+      background-position: 0% 0%;	
+      background-repeat: repeat;	
+      color: rgb(13, 12, 34);	
+      /* Box */	
+      height: 40px;	
+      width: 129.717px;	
+      border: 0.8px solid rgb(231, 231, 233);	
+      border-top: 0.8px solid rgb(231, 231, 233);	
+      border-right: 0.8px solid rgb(231, 231, 233);	
+      border-bottom: 0.8px solid rgb(231, 231, 233);	
+      border-left: 0.8px solid rgb(231, 231, 233);	
+      margin: 0px;	
+      padding: 0px 20px;	
+      max-height: none;	
+      min-height: 0px;	
+      max-width: none;	
+      min-width: 0px;
+          /* Positioning */	
+      position: relative;	
+      top: 0px;	
+      bottom: 0px;	
+      right: 0px;	
+      left: 0px;	
+      float: none;	
+      display: block;	
+      clear: none;	
+      z-index: auto;	
+      /* List */	
+      list-style-image: none;	
+      list-style-type: disc;	
+      list-style-position: outside;	
+      /* Table */	
+      border-collapse: separate;	
+      border-spacing: 0px 0px;	
+      caption-side: top;	
+      empty-cells: show;	
+      table-layout: auto;	
+      /* Miscellaneous */	
+      overflow: hidden;	
+      cursor: pointer;	
+      visibility: visible;	
+      /* Effects */		
+      outline-offset: 0px;	
+      box-sizing: border-box;	
+      resize: none;	
+      text-shadow: none;	
+      text-overflow: clip;	
+      word-wrap: normal;	
+      box-shadow: none;	
+      border-top-left-radius: 10000000px;	
+      border-top-right-radius: 10000000px;	
+      border-bottom-left-radius: 10000000px;	
+      border-bottom-right-radius: 10000000px;
+    }
+
+    input#location.has-label {
+      /* Font & Text */
+      font-family: "Mona Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-size: 17px;
+      font-style: normal;
+      font-variant: normal;
+      font-weight: 500;
+      letter-spacing: 0.51px;
+      line-height: 28px;
+      text-decoration: none;
+      text-align: start;
+      text-indent: 0px;
+      text-transform: none;
+      vertical-align: baseline;
+      white-space: normal;
+      word-spacing: 0px;
+      /* Color & Background */
+      background-color: rgba(0, 0, 0, 0);
+      color: rgb(0, 0, 0);
+      /* Box */
+      height: 56px;
+      width: 548px;
+      border: none; /* Specify your border properties here */
+      border-bottom: 0.8px solid rgb(219, 219, 222);
+      margin: 10px 0px 0px;
+      padding: 8px 34px; /* Adjust the top and bottom padding */
+      /* Positioning */
+      position: static;
+      /* Miscellaneous */
+      overflow: clip;
+      cursor: text;
+      visibility: visible;
+    }
+    
+    input#location.has-label:focus {
+      outline: none;
+    }
+
+    .countinue{
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      font-family: "Mona Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-size: 16px;
+      font-style: normal;
+      font-variant: normal;
+      font-weight: 400;
+      letter-spacing: normal;
+      line-height: 28px;
+      text-decoration: rgb(13, 12, 34);
+      text-align: start;
+      text-indent: 0px;
+      text-transform: none;
+      vertical-align: baseline;
+      white-space: normal;
+      word-spacing: 0px;
+      
+      
+      /* Color & Background */
+      background-color: rgba(0, 0, 0, 0);
+      background-image: none;
+      color: rgb(13, 12, 34);
+      
+      /* Box */
+      height: 48px;
+      width: 548px;
+      border: 0px solid rgb(13, 12, 34);
+      margin: 0px;
+      padding: 0px;
+      
+      /* Positioning */
+      position: static;
+      top: auto;
+      bottom: auto;
+      right: auto;
+      left: auto;
+      float: none;
+      display: flex;
+      clear: none;
+      z-index: auto;
+      
+      /* List */
+      list-style-image: none;
+      list-style-type: disc;
+      list-style-position: outside;
+      
+      /* Table */
+      border-collapse: separate;
+      border-spacing: 0px 0px;
+      caption-side: top;
+      empty-cells: show;
+      table-layout: auto;
+      
+      /* Miscellaneous */
+      overflow: visible;
+      cursor: auto;
+      visibility: visible;
+      margin-top: 25px;
+      
+    }
+
+    button.form-sub {
+      /* Font & Text */
+      font-family: "Mona Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-size: 13px;
+      font-style: normal;
+      font-variant: normal;
+      font-weight: 600;
+      letter-spacing: normal;
+      line-height: 20px;
+      text-decoration: none;
+      text-align: center;
+      text-indent: 0px;
+      text-transform: none;
+      white-space: normal;
+      word-spacing: 0px;
+      margin-top: 25px;
+      /* Color & Background */
+      background-color: #ea4b8a;
+      color: rgb(255, 255, 255);
+      
+      /* Box */
+      height: 50px;
+      width: 200px;
+      border: none;
+      margin: 0px;
+      padding: 10px 20px;
+      
+      /* Positioning */
+      position: relative;
+      top: 0px;
+      bottom: 0px;
+      right: 0px;
+      left: 0px;
+      float: none;
+      display: block;
+      clear: none;
+      z-index: auto;
+      border-radius: 15px;
+      
+      /* List */
+      list-style-image: none;
+      list-style-type: disc;
+      list-style-position: outside;
+      
+      /* Table */
+      border-collapse: separate;
+      border-spacing: 0px 0px;
+      caption-side: top;
+      empty-cells: show;
+      table-layout: auto;
+      
+      /* Miscellaneous */
+      overflow: visible;
+      cursor: pointer;
+      visibility: visible;
+      
+      /* Effects */
+      transform: none;
+      transition: color 0.2s;
+      outline-offset: 0px;
+      box-sizing: border-box;
+      resize: none;
+      text-shadow: none;
+      text-overflow: clip;
+      word-wrap: normal;
+      box-shadow: none;
+    }
+    
